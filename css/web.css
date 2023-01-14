@@ -1,0 +1,183 @@
+/* header css */
+header {
+  white-space: nowrap;
+}
+.flex {
+  display: flex;
+}
+header div a {
+  text-decoration: none;
+  color: black;
+}
+header div a:hover {
+  color: green;
+}
+header .w-25 button {
+  border: none;
+  background-color: white;
+}
+header .w-25 button:hover,
+.gategories button:hover,
+.list-gategories button:hover {
+  background-color: gray;
+}
+
+.header-list li {
+  margin: 1%;
+  display: inline;
+}
+
+/* menu */
+
+.store-menu img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-button button {
+  background-color: white;
+}
+
+.gategories button {
+  display: block;
+  background-color: white;
+  padding: 4% 2%;
+  width: 100%;
+  border: solid 0.5px gray;
+  text-align: left;
+}
+.gategories button:first-child {
+  background-color: rgba(0, 0, 0, 0.747);
+  color: white;
+}
+
+/* aside */
+.acide img {
+  width: 50%;
+  height: 40%;
+}
+.acide img:hover {
+  border: solid 1px red;
+  width: 48%;
+  height: 38%;
+  margin: 1%;
+}
+/* main */
+/* list-gategories */
+.list-gategories label {
+  display: block;
+  padding: 4% 3%;
+  border: solid 0.5px lightgray;
+  border-top: solid 4px red;
+}
+
+.list-gategories {
+  border: solid 0.5px lightgray;
+}
+
+.list-gategories button {
+  display: block;
+  background-color: white;
+  padding: 4% 5%;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+/* productus-list */
+.products-list-header {
+  border: solid 0.5px lightgray;
+  border-top: solid 4px red;
+}
+
+.products-list-header button {
+  background-color: white;
+  border: none;
+}
+.products-list-header button:hover {
+  color: red;
+}
+/* productus-item */
+
+.product-item del {
+  color: lightgray;
+}
+
+.product-item em {
+  color: red;
+}
+.product-item img {
+  width: 90%;
+}
+.product-item figcaption {
+  text-align: center;
+}
+
+.product-item:hover {
+  width: 35%;
+}
+
+
+/* footer */
+footer img {
+  width: 100%;
+  height: 70%;
+}
+
+/* margin */
+.margin-top-25{
+  margin-top: 25px;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.margin-10 {
+  margin: 10px;
+}
+.margin-25 {
+  margin: 25px;
+}
+
+/* width */
+.w-25 {
+  width: 25%;
+  display: inline-block;
+}
+.w-30 {
+  width: 30%;
+  display: inline-block;
+}
+.w-33 {
+  width: 33%;
+  display: inline-block;
+}
+.w-50 {
+  width: 50%;
+  display: inline-block;
+}
+
+.w-20 {
+  width: 20%;
+  display: inline-block;
+}
+
+.w-70 {
+  width: 70%;
+  display: inline-block;
+}
+
+/* txt */
+.txt-center {
+  text-align: center;
+}
+.txt-end{
+  text-align: end;
+}
+
+/* padding */
+.padding-left-330{
+  padding-left: 330px;
+}
+.padding-left-40{
+    padding-left: 40px;
+}
